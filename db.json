@@ -1,0 +1,56 @@
+{
+    "members":[{
+        "id":1,
+        "name":"Richard",
+        "lastName":"Soria",
+        "age":20,
+        "rol":"Scrum Master",
+        "image":"",
+        "description":"Genio, multimillonario, playboy y filántropo."
+    },
+    {
+        "id":2,
+        "name":"Ithan",
+        "lastName":"Camacho",
+        "age":19,
+        "rol":"Developer",
+        "image":"",
+        "description":""
+    },
+    {
+        "id":3,
+        "name":"Isaac",
+        "lastName":"Valenzuela",
+        "age":20,
+        "rol":"Developer",
+        "image":"",
+        "description":"Estudiante de la Escuela Politécnica Nacional, estudiando Desarrollo de Software, precursor de la caída del CNN para el bien del norte de Quito"
+    },
+    {
+        "id":4,
+        "name":"Adrián",
+        "lastName":"Ramos",
+        "age":20,
+        "rol":"Developer",
+        "image":"",
+        "description":"Pendejo"
+    },
+    {
+        "id":5,
+        "name":"Josué",
+        "lastName":"Guerra",
+        "age":20,
+        "rol":"Developer",
+        "image":"",
+        "description":""
+    },
+    {
+        "id":6,
+        "name":"Carlos",
+        "lastName":"Pérez",
+        "age":20,
+        "rol":"Developer",
+        "image":"",
+        "description":""
+    }]
+}
