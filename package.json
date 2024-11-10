@@ -71,8 +71,9 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch/index.js",
-    "bdd": "json-server --watch db.json --port=4000"
+    "dev": "nodemon src/index.js",
+    "json-server": "json-server --watch db.json --port=4000",
+    "concurrently": "concurrently \"npm run dev\" \"npm run json-server\""
   },
   "keywords": [],
   "author": "",

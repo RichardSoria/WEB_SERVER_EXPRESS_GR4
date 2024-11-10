@@ -1,7 +1,9 @@
+const API_URL = process.env.API_URL || 'http://localhost:4000'
+
 const memberModel = {
     async getAllMembersModel(){
         try{
-            const peticion = await fetch('http://localhost:4000/members')
+            const peticion = await fetch(`${API_URL}/members`)
             const members = await peticion.json()
             return members
         }
@@ -11,7 +13,7 @@ const memberModel = {
     },
     async getMemberByIdModel(id){
         try{
-            const peticion = await fetch(`http://localhost:4000/members/${id}`)
+            const peticion = await fetch(`${API_URL}/members/${id}`)
             const member = await peticion.json()
             return member
         }
