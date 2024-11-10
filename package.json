@@ -72,8 +72,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "json-server": "json-server --watch db.json --port=4000",
-    "concurrently": "concurrently \"npm run dev\" \"npm run json-server\""
+    "json-server": "json-server --watch db.json --port=4000"
   },
   "keywords": [],
   "author": "",
