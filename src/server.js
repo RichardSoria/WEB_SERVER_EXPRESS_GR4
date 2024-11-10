@@ -1,31 +1,18 @@
-import express from 'express'
-import { create, router as jsonRouter } from 'json-server'
-import path from 'path'
-import router from './routers/member_routes.js'
+import express from 'express';
+import router from './routers/member_routes.js';
 
 // Inicialización
-const app = express()
-const jsonServer = create()
-const dbRouter = jsonRouter(path.join(__dirname, '../db.json'))
+const app = express();
 
-// Varaibles
-app.set('port', process.env.PORT || 3000)
+// Middleware
+app.use(express.json());
 
-// Middlewares
-app.use(express.json())
+// Rutas de tu aplicación
+app.use('/integrantes', router);
 
-// JSON Server Routes
-app.use('/api',dbRouter)
+// Ruta de inicio
+app.get('/', (req, res) => {
+  res.send('<h1>Landing page - Grupo #4</h1>');
+});
 
-// Rutas
-app.get('/',(req,res)=>{
-    res.send(`
-        <h1>Landing page - Grupo #4</h1>
-    `)
-})
-
-// Rutas para los integrantes
-app.use('/integrantes',router)
-
-
-export default app
+export default app;
