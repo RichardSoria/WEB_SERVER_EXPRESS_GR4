@@ -5,8 +5,8 @@
         "lastName":"Soria",
         "age":20,
         "rol":"Scrum Master",
-        "image":"",
-        "description":"Genio, multimillonario, playboy y filántropo."
+        "image":"src/img/img_1.jpg",
+        "description":"El que tiene plata hace lo que quiere"
     },
     {
         "id":2,
@@ -14,7 +14,7 @@
         "lastName":"Camacho",
         "age":19,
         "rol":"Developer",
-        "image":"",
+        "image":"src/img/img_6.png",
         "description":""
     },
     {
@@ -23,7 +23,7 @@
         "lastName":"Valenzuela",
         "age":20,
         "rol":"Developer",
-        "image":"",
+        "image":"src/img/img_2.jpg",
         "description":"Estudiante de la Escuela Politécnica Nacional, estudiando Desarrollo de Software, precursor de la caída del CNN para el bien del norte de Quito"
     },
     {
@@ -32,7 +32,7 @@
         "lastName":"Ramos",
         "age":20,
         "rol":"Developer",
-        "image":"",
+        "image":"src/img/img_3.jpg",
         "description":"Pendejo"
     },
     {
@@ -41,8 +41,8 @@
         "lastName":"Guerra",
         "age":20,
         "rol":"Developer",
-        "image":"",
-        "description":""
+        "image":"src/img/img_4.jpg",
+        "description":"Presidente corrupto de la directiva de la ESFOT"
     },
     {
         "id":6,
@@ -50,7 +50,7 @@
         "lastName":"Pérez",
         "age":20,
         "rol":"Developer",
-        "image":"",
-        "description":""
+        "image":"src/img/img_5.jpg",
+        "description":"Le debe plata a Créditos Económicos"
     }]
 }
